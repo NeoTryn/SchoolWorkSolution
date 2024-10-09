@@ -17,6 +17,7 @@ namespace ExColletions
         {
             Name = name;
             ClassTeacher = classTeacher;
+            StudentsPrivate = new List<Student>();
         }
         
         public void AddStudent(Student s)
@@ -54,10 +55,10 @@ namespace ExColletions
     {
         private int idHere;
         private string lastName, firstName, cityHere;
-        public int Id { get { return idHere;  } }
+        public int Id { get { return idHere; } }
         public string Lastname { get { return lastName;  } }
-        public string Firstname { get { return firstName} }
-        public string City { get; set; }
+        public string Firstname { get { return firstName;  } }
+        public string City { get { return cityHere;  } }
 
         public Student(int id, string firstname, string lastname, string city)
         {
@@ -74,7 +75,7 @@ namespace ExColletions
         /// </summary>
         /// <param name="k"></param>
         public void ChangeClass(SchoolClass k)
-        {
+        {   
             k.AddStudent(this);
         }
     }
