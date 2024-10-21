@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionDemo", "Collectio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.csproj", "{6C47BFCA-BDF0-413A-BBCF-1B2E6FCF7EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualsExercise", "EqualsExercise\EqualsExercise.csproj", "{BA020354-9DFA-4A9D-8208-2148C3317588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualsExercise", "EqualsExercise\EqualsExercise.csproj", "{BA020354-9DFA-4A9D-8208-2148C3317588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ÜbungsTracker", "ÜbungsTracker\ÜbungsTracker.csproj", "{9F81A3D4-F8A6-4A76-8B59-9292FF1FDB29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ÜbungsTracker", "ÜbungsTracker\ÜbungsTracker.csproj", "{9F81A3D4-F8A6-4A76-8B59-9292FF1FDB29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDemo", "UnitTestDemo\UnitTestDemo.csproj", "{FC582C74-3EB6-455C-8A37-17A18F82EF0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9F81A3D4-F8A6-4A76-8B59-9292FF1FDB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F81A3D4-F8A6-4A76-8B59-9292FF1FDB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F81A3D4-F8A6-4A76-8B59-9292FF1FDB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC582C74-3EB6-455C-8A37-17A18F82EF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC582C74-3EB6-455C-8A37-17A18F82EF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC582C74-3EB6-455C-8A37-17A18F82EF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC582C74-3EB6-455C-8A37-17A18F82EF0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
